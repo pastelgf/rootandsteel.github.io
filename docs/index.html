@@ -1,23 +1,28 @@
-<!-- index.html -->
+{% extends "base.html" %}
+{% load i18n %}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
-    />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        //...
-      };
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  </body>
-</html>
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<h2>Congratulations!</h2>
+<p>
+    Welcome to your new Mezzanine powered website.
+    Here are some quick links to get you started:
+</p>
+<ul>
+    <li><a href="/admin/">Log in to the admin interface</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/content-architecture.rst#creating-custom-content-types">Creating custom page types</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/frequently-asked-questions.rst#where-are-all-the-templates-i-can-modify">Modifying HTML templates</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/frequently-asked-questions.rst#why-isnt-the-homepage-a-page-object-i-can-edit-via-the-admin">Changing this homepage</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/frequently-asked-questions.rst">Other frequently asked questions</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/configuration.rst#default-settings">Full list of settings</a></li>
+    <li><a href="https://github.com/stephenmcd/mezzanine/blob/master/docs/deployment.rst">Deploying to a production server</a></li>
+</ul>
+{% endblocktrans %}
+{% endblock %}
