@@ -1,6 +1,6 @@
 # Sellsword
 
-  ?> _Flavor
+  ?> _Flavor_
 
 *Armsmaster:* When you strike or shoot, if it’s using a different weapon to your last attack, it is made with +1.
 - *Bulwark:* When you block with a shield, your next attack is made with +1.
