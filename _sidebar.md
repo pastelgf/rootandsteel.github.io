@@ -1,4 +1,4 @@
-* [Homeb](README.md)
+* [Home](README.md)
 * [Creating a Chracter](creatingacharacter.md)
   * [Classes](classes.md)
   * [Kin](kin.md)
