@@ -10,12 +10,10 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
     />
- <!-- stylesheets -->
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" disabled>
 
-<!-- docsify-simple-dark-mode plugin -->
-<script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-simple-dark-mode@latest/src/switchLightDarkMode.js"></script>
   </head>
   <body>
     <div id="app"></div>
@@ -24,11 +22,17 @@
         //...
       };
     </script>
+    
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  </body>
-</html>
+    <script>
+      window.$docsify = {
+        loadSidebar: true}
+    </script>
 
-window.$docsify = {
+    <!-- docsify-simple-dark-mode plugin -->
+    <script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-simple-dark-mode@latest/src/switchLightDarkMode.js"></script>
+    
+    window.$docsify = {
     switchLightDarkMode: {
         useSwitchMode: true,
         top: 130,
@@ -36,3 +40,7 @@ window.$docsify = {
         svgColor: '#7d7b75',
     },
 }
+  </body>
+</html>
+
+
