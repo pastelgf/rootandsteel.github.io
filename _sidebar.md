@@ -18,4 +18,4 @@
 * [Designing Adventures](designingadventures.md)
 * [Adding New Content](newcontent.md)
 * [Bestiary](bestiary.md)
-* [Changelong](changelong.md)
+* [Changelog](changelog.md)
