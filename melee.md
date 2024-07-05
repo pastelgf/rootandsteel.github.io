@@ -84,7 +84,7 @@
 
 ## Torch
 
-**Strike:* basic strike vs PD, 1 damage and reduce the torch's light level by 1, +2 damage and burning 1 on hit
+**Strike:** basic strike vs PD, 1 damage and reduce the torch's light level by 1, +2 damage and burning 1 on hit
 
 **Snuffing Strike:** 1 xy, strike vs PD, 2 damage and burning 2, +2 damage and burning 1 on hit, the torch goes out.
 
