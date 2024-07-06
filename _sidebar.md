@@ -6,6 +6,8 @@
   * [Kits](kits.md)
 * [Core Rules](rules.md)
   * [Rituals](rituals.md)
+  * [Corruption and Infection](corruption.md)
+* [Exploration](exploration.md)
 * [Combat](combat.md)
   * [Conditions and Summons](conditions.md)
   * [Tile Effects](tileeffects.md)
