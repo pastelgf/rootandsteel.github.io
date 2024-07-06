@@ -97,7 +97,7 @@ When a character collects an amount of money equal to a chest of gold through da
 
 Every level a character levels up they gain 1 maximum xylem, as well as their choice of 1 maximum supplies or 1 maximum recovery.
 
-At levels 2, 3, and 4 a character picks a feat for one of their class's or kin's features, or replaces a class feature with a different class' feature. You cannot replace all of your class' features this way.
+At levels 2, 3, and 4 a character picks a feat for one of their class's or kin's features, or replaces a class feature with a different class' feature. You cannot replace all of your class' features this way. As well, a character improves one of the four attack types (strike, shoot, shape, alter) by 1.
 
 At levels 5 and 10, a character also gains one attribute point, a new background of the player's choice, 4 hit points, and 1 readied slot.
 
