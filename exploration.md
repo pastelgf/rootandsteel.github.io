@@ -47,3 +47,37 @@ The Omen is a portent of bad news.
 The Omen isa ticking clock that represents time before the next unplanned disaster happens. Often, the Omen represents a random encounter with enemies, but it can equally represent an earhtquake, an unexpected storm, a massive camp of bandits, or anything else equally good at throwing a wrench in the party's plans.
 
 The Omen starts at 40 in safe places, 30 in moderately dangerous ones, and 20 in very dangerous ones. Each round, the GM rolls 2d6 and subtracts the roll from the Omen. When the Omen reaches 0, there is a portent of what is to come, but nothing dangerous happens yet, and the Omen is reset to 3. When the Omen drops into the negatives, bad things happen (GM's discretion).
+
+## Dangers of Exploration
+
+### Exhaustion
+
+Every 24 hours a character goes without food and proper rest, they are marked with exhaustion. Each mark of exhaustion reduces all of their rolls, in both Exploration and Combat, by 1. At three marks of exhaustion, the character dies.
+
+### Swimming
+
+All characters can swim in still water with minimal effort.
+
+In rough water, a character can swim for a numb of mintues equal to the number of open readied slots they have (minimum of 30 seconds).
+
+### Holding your Breath
+
+If a character needs to hold their breath for an extended period of time (such as diving or being in a room of toxic gas), they can hold their breath for a number of minutes equal to their Might score (minimum of 30 seconds).
+
+A character that breaths in undrwater must be resuscitated in one minute or die.
+
+### Jumping
+
+A character can jump a number of feet equal to their Might score + their Agility score + their open readied slots.
+
+### Resurrection
+
+Resurrection is incredibly rare, the kind of magic that one adventures for rather than the kind one purchases.
+
+Magical resurrection uses powerful rituals to bring ones soul back from the Promised Hereafter, allowing them to rise once again. This magic is rare, and usually requires a great sacrifice.
+
+Alchemical resurrection uses the hieght of technology to reanimate the body and force the soul back into it. The folk with the knowhow to perform this operation are few and far between, and the operation requries rare materials.
+
+Regardless of how the resurrection is performed, doing so draws the ire of whatever being held the creature's soul, usually Death. That being will stop at nothing to retrieve what is theirs. In the case of Death, the resurrected will be the target of Death's psychopomps until they are returned. Resurrected characters also gain the following feature:
+
+*Already Dead:* You cannot be healed by effects other than spending recoveries.
