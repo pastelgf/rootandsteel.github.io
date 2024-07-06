@@ -5,7 +5,7 @@
   * [Backgrounds](backgrounds.md)
   * [Kits](kits.md)
 * [Core Rules](rules.md)
-*  [rituals](rituals.md)
+  * [Rituals](rituals.md)
 * [Combat](combat.md)
   * [Conditions and Summons](conditions.md)
   * [Tile Effects](tileeffects.md)
