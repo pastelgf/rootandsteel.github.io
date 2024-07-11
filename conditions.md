@@ -1,6 +1,6 @@
 # Conditions
 
-When conditions decay, their duration (usually denoted as X) is decreased by 1. When condiitions are cleansed, their duration is immediately set to 0.
+When conditions decay, their duration (usually denoted as X) is decreased by 1. When condiitions are cleansed, their duration is immediately set to 0. Some conditions are stated to only last a single round. These conditions decay by the amount added by any effects that state this at the end of the round.
 
 # Negative Conditions
 
@@ -27,6 +27,7 @@ When conditions decay, their duration (usually denoted as X) is decreased by 1. 
 
 - Heal X - Regain X health. Cleansed instantly.
 - Recover X - You may spend up to X recoveries. Cleansed instantly.
+- Resistance X = You take X damage less from all attacks. Decays by one each round.
 - Strength X - Increase the attack bonus of all strikes and shoots by X. Decays by one each turn.
 - Focus X - Increase the attack bonus of all shapes and altery by X. Decays by one each turn.
 - Shield X - Takes damage instead of your health. When damage is taken, decay by the amount taken.
