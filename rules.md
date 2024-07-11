@@ -32,7 +32,7 @@ Ismor is now attempting to bust down a heavy iron portcullis. This is a difficul
 
 Note: a check should only be performed if the outcome for failure is INTERESTING or DIFFICULT. If it is neither, the character should automatically succeed at the task.
 
-Characters can also interact with the world via [rituals](rituals.md).
+Characters can also interact with the world magically via [rituals](rituals.md).
 
 ## Backgrounds and Classes
 
@@ -81,13 +81,17 @@ The goal of adventuring is to gather money: usually in the form of coins called 
 </tbody>
 </table>
 
-All items in Root and Steel have their prices represented by one of these 5 values.
+All items in Root and Steel have their prices represented by one of these 5 values. Anything that would cost more cannot be purchased with coin, instead needing to be earned via adventure.
+
+Towns and villages only sell items up to standard value. Cities only sell items up to valuable value. Capital cities can sell anything.
 
 ## Equipment
 
 The vast majority of a character's options, both in Combat or Exploration, are defined by their [equipment](equipment.md). Equipment are stored in slots, which come in two forms: readied and unreadied.
 
 A character starts with 5 readied slots, which represent the items they have on hand, and also the items they use in Combat. Unreadied slots represent the items a character is storing in a bag, or in an otherwise hard to reach place. Unreadied items are easily usable during Exploration, but not Combat. A character has a number of unreadied slots equal to 10 + their might score. Some equipment is consumable. Once used, it cannot be used again until the adventure is over, or until a character spends supplies to refresh it. Supplies represent the extra bits and bobs a character has on hand, which are only refreshed when an adventure is finished. A character does not need to repurchase consumed items, they are permanent.
+
+All characters are assumed to have access to standard clothing which does not take up a slot.
 
 A character's starting equipment will be defined by whichever [kit](kits.md) they pick. Kit choices are restricted based on class.
 
