@@ -18,19 +18,15 @@ Attributes cannot be higher than 4.
 
 ## Rolling and Hitting
 
-All rolls in Root and Steel are performed with 2d6. 
+When the outcome of an action is unknown, and failure would be interesting or dangerous, a check is performed. When the outcome for failure would be neither interesting nor dangerous, the character automatically succeeds.
 
-Whenever 2d6 is rolled, it is against a target number, usually 8. Rolling at least this number is called a hit, and for every 2 points rolled higher than this number (10, 12, 14, etc) an additional hit is scored. This process is called a check.
+To perform a check, a character rolls 2d6 and adds their most relavent attribute, as well as an additional +2 for having a releavanet background or class, and +2 for each item they can use to make their task easier. If the sum of these values is at least 8, the check is hits, and the check hits an additional time for each 2 above 8 the final value is (10, 12, 14, etc.). 
 
-In Exploration, whenever a character performs a check, they add the score of a relevant attribute, plus and additional +2 if they have a relevant background, a +2 if they have a relevant class, a +2 if they have a relevant kin, and a +2 for any relevant items in their inventory. The GM and player should agree what is relevant to the situation.
+> For example, Ismor the Outlander wants to bust down a locked wooden door. He has 3 Might, so he rolls 2d6 + 3, but he argues that his outlander class should make him good at busting down doors. His GM agrees, and so he rolls 2d6 + 5, and gets an 11, easily busting down the door.
 
-For example, Ismor the Outlander wants to bust down a locked wooden door. He has 3 Might, so he rolls 2d6 + 3, but he argues that his outlander class should make him good at busting down doors. His GM agrees, and so he rolls 2d6 + 5, and gets an 11, easily busting down the door.
+For most easy tasks, a single hit is all that is necessary to succeed, but a GM might rule that some difficult tasks (such as climbing a sheer cliff in the rain) might require more hits, usually 3 or 5.
 
-Some tasks are very difficult. In order to succeed on these hard checks, a chaaracter must score at least 3 hits.
-
-Ismor is now attempting to bust down a heavy iron portcullis. This is a difficult task, but Ismor feels up to it, rolling 2d6 + 5. He scores another 11, which is only 2 hits, clashing against the portcullis but failing to move it.
-
-Note: a check should only be performed if the outcome for failure is INTERESTING or DIFFICULT. If it is neither, the character should automatically succeed at the task.
+> Ismor is now attempting to bust down a heavy iron portcullis. This is a difficult task, but Ismor feels up to it, rolling 2d6 + 5. He scores another 11, which is only 2 hits, clashing against the portcullis but failing to move it.
 
 Characters can also interact with the world magically via [rituals](rituals.md).
 
@@ -87,13 +83,17 @@ Towns and villages only sell items up to standard value. Cities only sell items 
 
 ## Equipment
 
-The vast majority of a character's options, both in Combat or Exploration, are defined by their [equipment](equipment.md). Equipment are stored in slots, which come in two forms: readied and unreadied.
+[Equipment](equipment.md) are the items a character stores on their person. Equipment are stored in slots, which come in two forms: readied and unreadied.
 
-A character starts with 5 readied slots, which represent the items they have on hand, and also the items they use in Combat. Unreadied slots represent the items a character is storing in a bag, or in an otherwise hard to reach place. Unreadied items are easily usable during Exploration, but not Combat. A character has a number of unreadied slots equal to 10 + their might score. Some equipment is consumable. Once used, it cannot be used again until the adventure is over, or until a character spends supplies to refresh it. Supplies represent the extra bits and bobs a character has on hand, which are only refreshed when an adventure is finished. A character does not need to repurchase consumed items, they are permanent.
+A character starts with 5 readied slots, which represent the items they have on hand, and also the items they use in Combat. Unreadied slots represent the items a character is storing in a bag, or in an otherwise hard to reach place. Unreadied items are easily usable during Exploration, but not Combat. A character has a number of unreadied slots equal to 10 + their might score. Some items consume less than a slot, and multiple can be put in a single slot (no overlap, a slot with 3 1/4th slot items cannot have a 1/2 slot item in it), and some items take up multiple slots. Items that are too big to be represented in terms of slots (such as a statue) can be pushed or dragged with a character, but are not a character's equipment.
+
+A pouch of coins takes up a 1/4th of a slot. A bag of coins takes up a slot. A chest takes up 4 slots.
+
+Some equipment is consumable. Once used, it cannot be used again until the adventure is over, or until a character spends supplies to refresh it. Supplies represent the extra bits and bobs a character has on hand, which are only refreshed when an adventure is finished. A character does not need to repurchase consumed items, they are permanent. Supplies can also be used to fully repair armor or shield.
 
 All characters are assumed to have access to standard clothing which does not take up a slot.
 
-A character's starting equipment will be defined by whichever [kit](kits.md) they pick. Kit choices are restricted based on class.
+A character's starting equipment will be defined by whichever [kit](kits.md) they pick.
 
 ## Levelling Up
 
@@ -107,9 +107,9 @@ At levels 5 and 10, a character also gains one attribute point, a new background
 
 ## Resting
 
-When a character is on an adventure, their ability to rest is limited. Every night a character spends with adequate access to food (a quarter slots worth of food) and with no interuptions, they regain 1 recovery.
+When a character is on an adventure, their ability to rest is limited. A character cannot regain health while on an adventure, barring magical means, but requires food and rest to survive. Any day that passes without adequate access to food (a quarter slots worth of food) or at least 6 hours of rest causes 1 point of health damage (or 2 points if both condiitons are not met). If a second day passes without adequate access to food or rest, teh damage is doubled, and so on until the character dies. Characters are assumed to always have access to ample water, but in a scenario where water is limited, a character also requires a quarter slot of water to survive.
 
-When a character returns from an adventure and rests for a full week, all of their supplies, hit points, recoveries, and consumed items are restored.
+When a character returns from an adventure and rests for a full week, all of their supplies, health, recoveries, and consumed items are restored.
 
 ## Light
 
@@ -126,8 +126,8 @@ Light represents the barrier between the world of breathing creatures, and the w
   <tr>
     <td class="tg-0pky">Shining (4)</td>
     <td class="tg-0pky">A spotlight, A beacon</td>
-    <td class="tg-0pky">+1 on attacks</td>
-    <td class="tg-0pky">-1 on attacks</td>
+    <td class="tg-0pky">+1 damage on attacks</td>
+    <td class="tg-0pky">-1 damage on attacks</td>
   </tr>
   <tr>
     <td class="tg-0pky">Bright (3)</td>
@@ -138,20 +138,20 @@ Light represents the barrier between the world of breathing creatures, and the w
   <tr>
     <td class="tg-0pky">Dim (2)</td>
     <td class="tg-0pky">A lantern, Moonlight</td>
-    <td class="tg-0pky">-1 on attacks</td>
-    <td class="tg-0pky">+1 on attacks</td>
+    <td class="tg-0pky">-1 damage on attacks</td>
+    <td class="tg-0pky">+1 damage on attacks</td>
   </tr>
   <tr>
     <td class="tg-0pky">Fading (1)</td>
     <td class="tg-0pky">A candle</td>
-    <td class="tg-0pky">-2 on attacks</td>
-    <td class="tg-0pky">+2 on attacks</td>
+    <td class="tg-0pky">-2 damage on attacks</td>
+    <td class="tg-0pky">+2 damage on attacks</td>
   </tr>
   <tr>
     <td class="tg-0pky">Darkness (0)</td>
     <td class="tg-0pky">Pitch Black</td>
     <td class="tg-0pky">Automatic failure</td>
-    <td class="tg-0pky">+3 on attacks</td>
+    <td class="tg-0pky">+3 danage on attacks</td>
   </tr>
 </tbody>
 </table>
