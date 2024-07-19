@@ -93,7 +93,7 @@
     <td class="tg-0lax">Standard</td>
     <td class="tg-0lax">2</td>
     <td class="tg-0lax">1d6+3</td>
-    <td class="tg-0lax">Parry +1, -2 damage to increase range by 5ft</td>
+    <td class="tg-0lax">Parry +1, -3 damage to increase range by 5ft</td>
   </tr>
   <tr>
     <td class="tg-0lax">Greataxe</td>
@@ -282,19 +282,125 @@
 
    <table class="tg", style="width:100%"><thead>
   <tr>
-    <th class="tg-0lax", style="width:20%">Item</th>
+    <th class="tg-0lax", style="width:30%">Item</th>
     <th class="tg-0lax", style="width:10%">Price</th>
     <th class="tg-0lax", style="width:10%">Slots</th>
-    <th class="tg-0lax", style="width:20%">Damage</th>
-    <th class="tg-0lax", style="width:40%">Effect</th>
+    <th class="tg-0lax", style="width:50%">Effect</th>
   </tr></thead>
 <tbody>
 <tr>
+    <td class="tg-0lax">Potions</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Healing Potion</td>
+    <td class="tg-0lax">Expensive</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to restore 3 health.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Xylemflare Potion</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to allow casting of one spell for free and lose 3 health.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Elixers</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Elixer of Venom</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to poison a weapon. Attacks with that weapon deal 1d2 additional damage.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Elixer of Force</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to increase the damage of all attacks by +2 for the next minute.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Elixer of Mental Focus</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to increase the damage of all spells and alteries by +2 for the next minute.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Elxier of Stonestin</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to decrease all damage taken by one for the next minute</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Bombs and Grenades</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Sisthean Fire</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/2</td>
+    <td class="tg-0lax">Consume and throw within 30ft to create a 10ftx10ft roaring inferno of flame. Creatures that end their turn in the fire take 1d6 damage and are set alight for 1d3 damage a round until they use an action to douse themselves or are hit with water.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Shrapnel</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/2</td>
+    <td class="tg-0lax">Consume and throw within 30ft to create a 10ftx10ft explosion. Creatures in the explosion take 1d6+1 damage.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Glue</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/2</td>
+    <td class="tg-0lax">Consume and throw within 30ft to create a 10ftx10x square of glue. Creatures in the glue have their movement reduced to 5ft.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Perfumes</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Glittering Perfume</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to fire a 15ft cone of perfume. Creatures in the area lose invisibility and cannot go invisible for the next 10 minutes.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Blacklung Perfume</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to fire a 15ft cone of perfume. Creatures in the area deal -2 damage with all attacks for the next minute.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Traps</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Caltrops</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to drop a caltrop trap in an adjacent tile. Any creature that enters that tile triggers the trap, spraying a 15ftx15ft area of caltrops. Any creature that walks through the caltrops takes 1d3 damage. </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Net Trap</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+    <td class="tg-0lax">Consume to drop a net trap in an adjacent tile. Any creature that enters that tile triggers the trap, capturing the creature in a net. It can be freed by another creature as an action.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Bite Trap</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1/2</td>
+    <td class="tg-0lax">Consume to drop a bite trap in an adjacent tile. Any creature that enters that tile triggers the trap, biting the creature for 1d6+1 damage and stopping it from moving. The bite trap can only be removed with 1d3 minutes of effort.</td>
   </tr>
    </tbody></table>
 
@@ -302,18 +408,71 @@
 
 <table class="tg", style="width:100%"><thead>
   <tr>
-    <th class="tg-0lax", style="width:20%">Item</th>
-    <th class="tg-0lax", style="width:10%">Price</th>
-    <th class="tg-0lax", style="width:10%">Slots</th>
-    <th class="tg-0lax", style="width:20%">Damage</th>
-    <th class="tg-0lax", style="width:40%">Effect</th>
+    <th class="tg-0lax", style="width:40%">Item</th>
+    <th class="tg-0lax", style="width:30%">Price</th>
+    <th class="tg-0lax", style="width:30%">Slots</th>
   </tr></thead>
 <tbody>
 <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Ration</td>
+    <td class="tg-0lax">Cheap</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Torch</td>
+    <td class="tg-0lax">Frugal</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Lantern</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">An Hour of Oil</td>
+    <td class="tg-0lax">Cheap</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crowbar</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Grappling Hook</td>
+    <td class="tg-0lax">Standard</td>
     <td class="tg-0lax"></td>
   </tr>
+  <tr>
+    <td class="tg-0lax">Hammer</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Iron Spikes (6)</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mirror</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">10' Pole</td>
+    <td class="tg-0lax">Cheap</td>
+    <td class="tg-0lax">2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">50' of Hemp Rope</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Wine</td>
+    <td class="tg-0lax">Cheap</td>
+    <td class="tg-0lax">1/4</td>
+  </tr>
    </tbody></table>
+
+This list is not exhaustive, but simply includes the most common items. 
