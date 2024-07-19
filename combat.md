@@ -40,6 +40,14 @@ If you have a readied weapon that can parry, you can attempt to do so. On the fi
 
 You may move up to twice your movement in a straight line, then make an attack. The attack deals half damage if you moved less than your movement, normal damage if you moved at least your movement, and double damage if you moved the maximum amount. The first attack that hurts you before your next turn does +2 damage.
 
+## Cast a Spell
+
+You may cast a spell of those that you know and are currently available.
+
+## Use an Item
+
+Use a readied item in a way that is either defined by the item or in a way that makes sense (such as throwing a net or pouring water on something).
+
 # Attacking
 
 When a creature attacks, they use one of their readied weapons to deal damage to a creature within that weapon's range. Attacks automatically do damage and apply any special effects as a result of the used weapon or various abilities a creature has. Note, special effects are not applied if an attack does no damage.
@@ -67,9 +75,11 @@ Like basic maneuvers, epic maneuvers usually require a check, albeit their effec
 
 Basic maneuvers can be performed any number of times, but epic maneuevers can only be performed once per day per character.
 
+Maneuevers cannot do extra damage, either to health or to armor. Basic maneuvers also cannot do anything that another effect could do better than that effect. A basic maneuver could push a brazier onto a foe, but that brazier would be less effective than a fireball. Epic maneuevers are free to break the rules. They're allowed to be epic.
+
 # Armor
 
-Armor that is readied acts as a barrier against damage. Each piece of armor has a certain amount of durability, which is lowered when a creature takes damage instead of their health. If a character has multiple pieces of armor readied, it is up to them which piece takes damage.
+Armor that is readied acts as a barrier against damage. Each piece of armor has a certain amount of durability, which is lowered when a creature takes damage instead of their health. If a character has multiple pieces of armor readied, it is up to them which piece takes damage. If armor is reduced to 0 durability, any remainding damage is applied to the target's health as if they had no armor.
 
 Armor that is partially damaged can be fully repaired in a few mintues using supplies, but armor that is damaged to the point of 0 durability is too damaged to field repair. It can only be fixed at the end of the adventure, but costs nothing to do so.
 
@@ -84,3 +94,19 @@ A character that is behind cover, or is obscured by fog, mist, or a similar effe
 ## Fighting Blind
 
 If you cannot see something, you cannot attack it.
+
+## Two Weapon Fighting
+
+If a character wishes, they can attack with the Attack action using two weapons at the same time. The weapons must take up one slot or less each, and each attack does half damage.
+
+# Example of Combat
+
+> Ismor the outlander is fleeing from an orcish tower atop a high and craggy hill. He busts out of the lowest level of the tower only to find two orcs waiting for him. He's surprised, so the orcs go first.
+>
+> The first orc spends an action to move, and then a second to swing an axe into Ismor for 1d6+1 - 4 damage. The second orc does the same for another 1d6+1 - 7 damage, bringing Ismor's hide armor down to 1 durability.
+>
+> On Ismor's turn, he grips his greataxe tight and swings it into the first orc for 1d6+2 - 6 damage, cleaving the second orc for 3 damage. He decides to try a basic maneuver to shove the orc off of the cliff behind him, rolling 2d6 - 11, and managing to whip the orc using the base of the battleaxe, sending it tumbling back and over the cliff. For Ismor's second action, he attempts to dodge.
+>
+> The remaining orc glares at Ismor, swinging its axe again, rolling a 3 against Ismor's dodge, and then another 1d6+1 - 3 damage. This destroy's Ismor's armor and does 2 damage to his health. The orc then raises its shield to protect against Ismor's followup.
+>
+> Ismor can hear the orcish commander close behind him, so he takes the risky move and attempts an epic maneuver. He bats the side of the orc's shield with his axe for 1d6+2 - 3 damage and then attempts to grab the orc and leap off of the edge of the cliff. With luck he rolls 2d6 - 8, succeeding and taking the two of them tumbling down the cliffside. Ismor manages to use the orc's body to cushion his fall, if only barely, still taking 1d6 - 6 damage! With 2 health remaning, Ismor picks himself up and starts marching back to town.
