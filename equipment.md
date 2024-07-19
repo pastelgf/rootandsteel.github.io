@@ -81,6 +81,11 @@
     <td class="tg-0lax">1d6-1</td>
     <td class="tg-0lax">Range 10ft</td>
   </tr>
+  <td class="tg-0lax">Whip</td>
+    <td class="tg-0lax">Valuable</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1d3</td>
+    <td class="tg-0lax">Range 15ft</td>
   <tr>
     <td class="tg-0lax">Polearm</td>
     <td class="tg-0lax">Standard</td>
@@ -155,7 +160,7 @@
     <td class="tg-0lax">Pistol</td>
     <td class="tg-0lax">Standard</td>
     <td class="tg-0lax">1</td>
-    <td class="tg-0lax">1d6-1</td>
+    <td class="tg-0lax">1d6</td>
     <td class="tg-0lax">Requires reloading after firing, 30 ft range</td>
   </tr>
   <tr>
@@ -172,7 +177,22 @@
     <td class="tg-0lax">1d6</td>
     <td class="tg-0lax">Requires reloading after firing, deals damage in a 15ft length cone</td>
   </tr>
+  <td class="tg-0lax">Sling</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1d3</td>
+    <td class="tg-0lax">90ft range</td>
   </tbody></table>
+
+Weapons can be made of alternate materials:
+
+- Peasant Grade: Reduces price by one tier, deals -1 damage.
+- Dwarfglass: Increases price tier by one tier, reroll the first 1 of any attack.
+- Mythril (Song-Iron): Increases price tier by one tier, immunity to wear, cannot be broken.
+- Magnesium: Increases price tier by one tier, Reduce 1 slot items to 1/2 slots, and 1/2 slots to 1/4. Larger weapons cannot be made of Magnesium.
+- Elder Bronze: Increases price tier by one tier, deals +1 damage against monsters and outsiders.
+- Meteoric Iron: Increases price tier by one tier, damage +1 in the presence of magic (spell casts grant the bonus for a single round).
+- Bismuth: Increases price tier by one tier, glows in the dark like a dim torch.
 
 # Armor and Shields
 
@@ -441,7 +461,7 @@
   <tr>
     <td class="tg-0lax">Grappling Hook</td>
     <td class="tg-0lax">Standard</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1/2</td>
   </tr>
   <tr>
     <td class="tg-0lax">Hammer</td>
