@@ -32,6 +32,12 @@ The way to refresh a rune is dependant on the rune. For example, the *Fire* rune
 
 When a rune is refreshed, all spells can be cast again. Spells that were not cast before refreshing do not gain a second casting. You may only ever cast a spell once per refresh.
 
+## Magic and Alchemy
+
+As magic is the antithesis of order, alchemy, which functions on strict rules and science, breaks down around magic.
+
+For each rune you have grafted, alchemical items do 1 less damage and 1 less healing.
+
 ## Corruption
 
 Runes are naturally corrupting, and grafting a rune permanently increases your corruption of a specified type by 1. See [corruption](corruption.md).
