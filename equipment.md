@@ -422,6 +422,24 @@ Weapons can be made of alternate materials:
     <td class="tg-0lax">1/2</td>
     <td class="tg-0lax">Consume to drop a bite trap in an adjacent tile. Any creature that enters that tile triggers the trap, biting the creature for 1d6+1 damage and stopping it from moving. The bite trap can only be removed with 1d3 minutes of effort.</td>
   </tr>
+  <tr>
+    <td class="tg-0lax">Miscellaneous</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Flash Powder</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1/2</td>
+    <td class="tg-0lax">Consume to go invisible for 10 seconds, or one round.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Armor Repair Kit</td>
+    <td class="tg-0lax">Standard</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">Consume to restore a piece of armor to full durability, even if it has 0 durability. Takes 10 minutes to use.</td>
+  </tr>
    </tbody></table>
 
 # Standard Adventuring Equipment
