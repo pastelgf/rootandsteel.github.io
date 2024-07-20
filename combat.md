@@ -48,6 +48,8 @@ You may cast a spell of those that you know and are currently available.
 
 Use a readied item in a way that is either defined by the item or in a way that makes sense (such as throwing a net or pouring water on something).
 
+
+
 # Attacking
 
 When a creature attacks, they use one of their readied weapons to deal damage to a creature within that weapon's range. Attacks automatically do damage and apply any special effects as a result of the used weapon or various abilities a creature has. Note, special effects are not applied if an attack does no damage.
@@ -98,6 +100,10 @@ If you cannot see something, you cannot attack it.
 ## Two Weapon Fighting
 
 If a character wishes, they can attack with the Attack action using two weapons at the same time. The weapons must take up one slot or less each, and each attack does half damage.
+
+## Punching
+
+Regardless of equipped items, you can always resort to your fists, legs, or similar body part. Unarmed attacks like these deal 1 damage.
 
 # Example of Combat
 
